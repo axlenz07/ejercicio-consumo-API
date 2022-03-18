@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cardView">
+
+    <ImageView
+        android:id="@+id/ivIconAbili"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/tvNameAbilitie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="18sp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toEndOf="@+id/ivIconAbili"
+        tools:text="Nombre de la habilidad" />
+
+    <TextView
+        android:id="@+id/tvDescAbilitie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@id/tvNameAbilitie"
+        android:layout_toEndOf="@id/ivIconAbili"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        tools:text="Descripcion de la habilidad"/>
+
+</RelativeLayout>
